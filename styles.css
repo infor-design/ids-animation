@@ -1,0 +1,51 @@
+html {
+  height: calc(100% - 32px);
+}
+
+body {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.center {
+  justify-content: center;
+
+  dotlottie-player {
+    border: none;
+  }
+}
+
+#logo-json {
+  border: 1px dashed #3B3B3F;
+  height: 312px;
+  width: 312px;
+}
+
+#logo-gif {
+  border: 1px dashed #3B3B3F;
+  height: 312px;
+  width: 312px;
+}
+
+span {
+  font-family: "source sans pro", helvetica, arial;
+  font-weight: 16px;
+  color: #3B3B3F;
+  margin: 16px 0;
+}
+
+.center dotlottie-player {
+    border: none;
+}
+
+dotlottie-player {
+  border: 1px dashed #3B3B3F;
+}
+
+lottie-player {
+  border: 1px dashed #3B3B3F;
+}

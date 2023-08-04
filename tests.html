@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <title>IDS Animation Examples</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&amp;display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+</head>
+<body>
+  <span>1. Dot Lottie player version</span>
+  <dotlottie-player autoplay loop mode="normal" src="animations/logo/logo-animation.lottie" style="width: 320px">
+  </dotlottie-player>
+
+  <span>2. Lottie player version</span>
+  <lottie-player autoplay loop mode="normal" src="animations/logo/logo-animation.json" style="width: 312px">
+  </lottie-player>
+
+  <span>3. JSON with bodymovin version</span>
+  <div id="logo-json"></div>
+  <script>
+    const animation = bodymovin.loadAnimation({
+      container: document.getElementById('logo-json'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'animations/logo/logo-animation.json'
+    });
+  </script>
+
+<span>4. Gif version</span>
+  <image id="logo-gif" src="animations/logo/logo-animation.gif"></image>
+
+</body>
+</html>
