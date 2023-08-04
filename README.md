@@ -42,9 +42,9 @@ In web components or angular or enterprise the steps are the same.
 ```
 
 4. Add any needed css to place the animation
-5. 
+5. Run your page and test
 
-## Online hosted file
+## Online hosted file at lottiefiles.com
 
 https://app.lottiefiles.com/animation/8b5f0d63-468d-4cac-ac6c-2917bad82a34
 
