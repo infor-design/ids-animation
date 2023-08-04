@@ -1,0 +1,22 @@
+{
+  "name": "ids-animation",
+  "version": "1.0.0",
+  "description": "Complex animations for Infor Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infor-design/ids-animation.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/infor-design/ids-animation/issues"
+  },
+  "homepage": "https://github.com/infor-design/ids-animation#readme",
+  "dependencies": {
+    "@dotlottie/player-component": "^2.2.0"
+  }
+}
