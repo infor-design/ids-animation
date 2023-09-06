@@ -1,14 +1,14 @@
 # Infor Animations
 
-A small library (starting with the first one) of complex animations that can be used in Infor applications. The animations are built using [Adobe After Effects](https://www.adobe.com/products/aftereffects/). They require a special JS player component to run and a file that is loaded in it. We recommend using the `lottie` file and the [lottie player](https://github.com/dotlottie/player-component/tree/master/packages/player-component)
+A small library (starting with one) of complex animations that can be used in Infor applications. The animations are built using [Adobe After Effects](https://www.adobe.com/products/aftereffects/). They require a special JS player component to run and a file that is loaded in it with the animations. We recommend using the `lottie` file format and the [lottie player](https://github.com/dotlottie/player-component/tree/master/packages/player-component) plugin.
 
 ## List of animations
 
-- `logo-animation (320px)` Shows the Infor logo and animates. This animation would be shown directly after logging in to add a great visual effect. Use it like a splash screen and centered in the page.
+- `logo-animation (320px)` Shows the Infor logo and animates. This animation would be shown directly after logging in to add a visual effect. Use it on something like a splash screen and centered in the page.
 
 ## Running the examples in this repo
 
-Clone the Repo and cd into the cloned folder then start up any web server that can serve the folder as the files must be served from a URL for the example to work. 
+Clone the Repo and `cd` into the cloned folder then start up any web server that can serve the folder as the files must be served from a URL for the example to work. 
 
 Example:
 
@@ -24,7 +24,7 @@ https://stackblitz.com/edit/ids-animation
 
 ## Running the examples in your code
 
-In web components or angular or enterprise the steps are the same.  
+In web components or angular or enterprise these steps are the same.  
 
 1. Install the player `npm install --save @dotlottie/player-component`
 2. Import [lottie player](https://github.com/dotlottie/player-component/tree/master/packages/player-component)
@@ -33,7 +33,7 @@ In web components or angular or enterprise the steps are the same.
 <script src="node_modules/@dotlottie/player-component/dist/dotlottie-player.js"></script>`
 ```
 
-2. Server the file `animations/logo/logo-animation.lottie` with your application to any location
+2. Serve the file `animations/logo/logo-animation.lottie` with your application files to any location
 3. Add the following code to your page, correcting the path to the `.lottie` file
 
 ```js
@@ -48,7 +48,7 @@ In web components or angular or enterprise the steps are the same.
 
 https://app.lottiefiles.com/animation/8b5f0d63-468d-4cac-ac6c-2917bad82a34
 
-## Os Approvals Possibly Needed
+## Os Approvals (Possibly Needed)
 
 https://github.com/dotlottie/player-component/tree/master/packages/player-component 
 
