@@ -48,7 +48,7 @@ In web components or angular or enterprise these steps are the same.
 
 https://app.lottiefiles.com/animation/8b5f0d63-468d-4cac-ac6c-2917bad82a34
 
-## Os Approvals (Possibly Needed)
+## For Infor OS approval
 
 https://github.com/dotlottie/player-component/tree/master/packages/player-component 
 
